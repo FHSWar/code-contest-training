@@ -1,0 +1,14 @@
+{
+  "name": "llm-api-experiment",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "ping": "tsx src/ping.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}
