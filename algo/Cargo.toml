@@ -1,0 +1,10 @@
+[package]
+name = "algo-solutions"
+version = "0.1.0"
+edition = "2021"
+publish = false
+
+# 每道题一个 binary，path 指向题目目录下的 solution.rs（与 LeetCode 单文件习惯一致）
+[[bin]]
+name = "p704-binary-search"
+path = "week01/704-binary-search/solution.rs"

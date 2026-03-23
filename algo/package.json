@@ -3,7 +3,10 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "check": "tsc --noEmit"
+    "check": "tsc --noEmit",
+    "check:py": "python3 week01/704-binary-search/solution.py",
+    "check:rust": "cargo check --manifest-path Cargo.toml",
+    "check:all": "npm run check && npm run check:py && npm run check:rust"
   },
   "devDependencies": {
     "typescript": "^5.9.3"

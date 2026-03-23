@@ -30,6 +30,10 @@
 - `-10^4 < nums[i], target < 10^4`
 - `nums` 按 **严格递增** 排序（无重复时与「升序」一致；题意下用二分即可）
 
+## 解题思路
+
+见 [`思路.md`](./思路.md)（两种区间写法、复杂度与易错点）。
+
 ## 本地代码
 
-解答见同目录 [`solution.ts`](./solution.ts)。在仓库的 `algo/` 目录执行 `pnpm install && pnpm run check`（或 `npm run check`）做类型检查。
+解答见同目录 [`solution.ts`](./solution.ts)，另有 [`solution.py`](./solution.py)、[`solution.rs`](./solution.rs)。在仓库的 `algo/` 目录执行 `pnpm install && pnpm run check`（或 `npm run check`）做 TypeScript 检查；`npm run check:all` 可串联 Python / Rust（需本机安装相应工具链）。
