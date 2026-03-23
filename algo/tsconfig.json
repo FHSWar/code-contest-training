@@ -8,5 +8,5 @@
     "noEmit": true,
     "rootDir": "."
   },
-  "include": ["week*/**/*.ts", "snippets/**/*.ts"]
+  "include": ["week*/**/*.ts", "snippets/**/*.ts", "vitest.config.ts"]
 }

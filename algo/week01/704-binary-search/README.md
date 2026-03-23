@@ -36,4 +36,6 @@
 
 ## 本地代码
 
-解答见同目录 [`solution.ts`](./solution.ts)，另有 [`solution.py`](./solution.py)、[`solution.rs`](./solution.rs)。在仓库的 `algo/` 目录执行 `pnpm install && pnpm run check`（或 `npm run check`）做 TypeScript 检查；`npm run check:all` 可串联 Python / Rust（需本机安装相应工具链）。
+解答见同目录 [`solution.ts`](./solution.ts)，另有 [`solution.py`](./solution.py)、[`solution.rs`](./solution.rs)。公共用例在 [`cases.ts`](./cases.ts)（TS 测试与文档用），Python 为 [`test_solution.py`](./test_solution.py)。
+
+在仓库 `algo/` 下：`npm run test` 跑三语言单元测试；`npm run check` 仅做 TS 类型检查；`npm run check:all` 含类型检查、`cargo check` 与全套测试（需安装 Node、Python 3、Rust 工具链）。

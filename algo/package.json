@@ -4,11 +4,16 @@
   "type": "module",
   "scripts": {
     "check": "tsc --noEmit",
-    "check:py": "python3 week01/704-binary-search/solution.py",
-    "check:rust": "cargo check --manifest-path Cargo.toml",
-    "check:all": "npm run check && npm run check:py && npm run check:rust"
+    "check:py": "npm run test:py",
+    "check:rust": "node scripts/check-rust.mjs",
+    "check:all": "npm run check && npm run check:rust && npm run test",
+    "test": "npm run test:ts && npm run test:py && npm run test:rust",
+    "test:ts": "vitest run",
+    "test:py": "python3 -m unittest discover -s week01/704-binary-search -p 'test_*.py' -v",
+    "test:rust": "node scripts/test-rust.mjs"
   },
   "devDependencies": {
-    "typescript": "^5.9.3"
+    "typescript": "^5.9.3",
+    "vitest": "^3.2.4"
   }
 }
