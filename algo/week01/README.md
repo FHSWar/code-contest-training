@@ -8,7 +8,7 @@
 | 天 | 题目 | 本地 |
 |----|------|------|
 | 周一 | [LC 704](https://leetcode.cn/problems/binary-search/) | [704-binary-search](./704-binary-search/) |
-| 周一 | [LC 35](https://leetcode.cn/problems/search-insert-position/) | — |
+| 周一 | [LC 35](https://leetcode.cn/problems/search-insert-position/) | [35-search-insert-position](./35-search-insert-position/) |
 | 周二 | [LC 34](https://leetcode.cn/problems/find-first-and-last-position-of-element-in-sorted-array/) | — |
 | 周二 | [LC 162](https://leetcode.cn/problems/find-peak-element/) | — |
 | 周三 | [LC 33](https://leetcode.cn/problems/search-in-rotated-sorted-array/) | — |

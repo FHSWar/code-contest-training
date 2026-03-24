@@ -8,3 +8,7 @@ publish = false
 [[bin]]
 name = "p704-binary-search"
 path = "week01/704-binary-search/solution.rs"
+
+[[bin]]
+name = "p35-search-insert-position"
+path = "week01/35-search-insert-position/solution.rs"
