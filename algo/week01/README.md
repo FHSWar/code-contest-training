@@ -7,22 +7,32 @@
 
 | 天 | 题目 | 本地 |
 | --- | --- | --- |
-| 周一 | [LC 704](https://leetcode.cn/problems/binary-search/) | [704-binary-search](./704-binary-search/) |
-| 周一 | [LC 35](https://leetcode.cn/problems/search-insert-position/) | [35-search-insert-position](./35-search-insert-position/) |
-| 周二 | [LC 34](https://leetcode.cn/problems/find-first-and-last-position-of-element-in-sorted-array/) | [34-find-first-and-last-position-of-element-in-sorted-array](./34-find-first-and-last-position-of-element-in-sorted-array/) |
-| 周二 | [LC 162](https://leetcode.cn/problems/find-peak-element/) | [162-find-peak-element](./162-find-peak-element/) |
-| 周三 | [LC 33](https://leetcode.cn/problems/search-in-rotated-sorted-array/) | [33-search-in-rotated-sorted-array](./33-search-in-rotated-sorted-array/) |
-| 周三 | [LC 153](https://leetcode.cn/problems/find-minimum-in-rotated-sorted-array/) | [153-find-minimum-in-rotated-sorted-array](./153-find-minimum-in-rotated-sorted-array/) |
-| 周四 | [LC 74](https://leetcode.cn/problems/search-a-2d-matrix/) | [74-search-a-2d-matrix](./74-search-a-2d-matrix/) |
-| 周四 | [LC 540](https://leetcode.cn/problems/single-element-in-a-sorted-array/) | [540-single-element-in-a-sorted-array](./540-single-element-in-a-sorted-array/) |
-| 周五 | [LC 875](https://leetcode.cn/problems/koko-eating-bananas/) ⭐ | [875-koko-eating-bananas](./875-koko-eating-bananas/) |
-| 周六 | [LC 1283](https://leetcode.cn/problems/smallest-divisor-given-a-threshold/) | [1283-smallest-divisor-given-a-threshold](./1283-smallest-divisor-given-a-threshold/) |
-| 周六 | [LC 1482](https://leetcode.cn/problems/minimum-number-of-days-to-make-m-bouquets/) | [1482-minimum-number-of-days-to-make-m-bouquets](./1482-minimum-number-of-days-to-make-m-bouquets/) |
-| 周六 | [LC 378](https://leetcode.cn/problems/kth-smallest-element-in-a-sorted-matrix/) | [378-kth-smallest-element-in-a-sorted-matrix](./378-kth-smallest-element-in-a-sorted-matrix/) |
-| 周日 | [LC 1011](https://leetcode.cn/problems/capacity-to-ship-packages-within-d-days/) ⭐ | [1011-capacity-to-ship-packages-within-d-days](./1011-capacity-to-ship-packages-within-d-days/) |
-| 周日 | [LC 410](https://leetcode.cn/problems/split-array-largest-sum/) | [410-split-array-largest-sum](./410-split-array-largest-sum/) |
+| 周一 | [LC 704](https://leetcode.cn/problems/binary-search/) | [704-binary-search](./704-binary-search/README.md) |
+| 周一 | [LC 35](https://leetcode.cn/problems/search-insert-position/) | [35-search-insert-position](./35-search-insert-position/README.md) |
+| 周二 | [LC 34](https://leetcode.cn/problems/find-first-and-last-position-of-element-in-sorted-array/) | [34-find-first-and-last-position-of-element-in-sorted-array](./34-find-first-and-last-position-of-element-in-sorted-array/README.md) |
+| 周二 | [LC 162](https://leetcode.cn/problems/find-peak-element/) | [162-find-peak-element](./162-find-peak-element/README.md) |
+| 周三 | [LC 33](https://leetcode.cn/problems/search-in-rotated-sorted-array/) | [33-search-in-rotated-sorted-array](./33-search-in-rotated-sorted-array/README.md) |
+| 周三 | [LC 153](https://leetcode.cn/problems/find-minimum-in-rotated-sorted-array/) | [153-find-minimum-in-rotated-sorted-array](./153-find-minimum-in-rotated-sorted-array/README.md) |
+| 周四 | [LC 74](https://leetcode.cn/problems/search-a-2d-matrix/) | [74-search-a-2d-matrix](./74-search-a-2d-matrix/README.md) |
+| 周四 | [LC 540](https://leetcode.cn/problems/single-element-in-a-sorted-array/) | [540-single-element-in-a-sorted-array](./540-single-element-in-a-sorted-array/README.md) |
+| 周五 | [LC 875](https://leetcode.cn/problems/koko-eating-bananas/) ⭐ | [875-koko-eating-bananas](./875-koko-eating-bananas/README.md) |
+| 周六 | [LC 1283](https://leetcode.cn/problems/smallest-divisor-given-a-threshold/) | [1283-smallest-divisor-given-a-threshold](./1283-smallest-divisor-given-a-threshold/README.md) |
+| 周六 | [LC 1482](https://leetcode.cn/problems/minimum-number-of-days-to-make-m-bouquets/) | [1482-minimum-number-of-days-to-make-m-bouquets](./1482-minimum-number-of-days-to-make-m-bouquets/README.md) |
+| 周六 | [LC 378](https://leetcode.cn/problems/kth-smallest-element-in-a-sorted-matrix/) | [378-kth-smallest-element-in-a-sorted-matrix](./378-kth-smallest-element-in-a-sorted-matrix/README.md) |
+| 周日 | [LC 1011](https://leetcode.cn/problems/capacity-to-ship-packages-within-d-days/) ⭐ | [1011-capacity-to-ship-packages-within-d-days](./1011-capacity-to-ship-packages-within-d-days/README.md) |
+| 周日 | [LC 410](https://leetcode.cn/problems/split-array-largest-sum/) | [410-split-array-largest-sum](./410-split-array-largest-sum/README.md) |
 
-有本地目录的题：`README.md` 为题面摘要，`solution.ts` / `solution.py` / `solution.rs`、`cases.ts`、`solution.test.ts`、`test_solution.py` 与 704/35 同构；正式提交仍在 LeetCode。
+上表「本地」列指向各题目录下的 `README.md`（题面摘要）；解题笔记见同目录 `思路.md`。`solution.ts` / `solution.py` / `solution.rs`、`cases.ts`、`solution.test.ts`、`test_solution.py` 与 704/35 同构；正式提交仍在 LeetCode。
+
+## 核心认知
+
+二分的本质不是"在有序数组里找一个数"，而是**让搜索区间收敛到只剩一个元素**。
+
+1. **排除而非确认**：每一步不判断"mid 是不是答案"，而是判断"哪一半一定没有答案"，扔掉那一半。升序 / 单调性就是那个让你敢扔的依据。
+2. **延迟决策**：即使 `nums[mid]` 已经等于 target，也不急着返回——左边可能还有更优的。让区间继续缩，直到只剩一个，那个就是答案。多做的那一两轮迭代是 O(1) 的代价，换来的是模板的通用性和正确性。
+3. **`left < right` 的语义**：不是"还没找到"，而是"还没收敛到一个点"。收敛了就停。
+
+所有二分题的区别只在于：**排除依据是什么**。704 是 `nums[mid] < target`，875 是 `check(k) 不满足`，153 是 `nums[mid] > nums[right]`——骨架一模一样。
 
 ## 本周自检
 
