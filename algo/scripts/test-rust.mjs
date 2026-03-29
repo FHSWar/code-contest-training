@@ -2,8 +2,8 @@
  * Runs `cargo test` from algo/. If cargo is missing, prints install hints and exits 1.
  */
 import { spawnSync } from "node:child_process";
-import { fileURLToPath } from "node:url";
 import { dirname, join } from "node:path";
+import { fileURLToPath } from "node:url";
 
 const algoRoot = join(dirname(fileURLToPath(import.meta.url)), "..");
 
@@ -19,9 +19,10 @@ if (result.error) {
       [
         "cargo: command not found.",
         "Install Rust (rustup): https://rustup.rs",
-        "  curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh",
+        "  macOS / Linux: curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh",
+        "  Windows: use rustup-init.exe from that site, or: winget install Rustlang.Rustup",
         "Then open a new terminal and run: npm run test:rust",
-      ].join("\n")
+      ].join("\n"),
     );
     process.exit(1);
   }

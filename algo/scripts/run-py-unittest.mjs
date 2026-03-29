@@ -5,20 +5,20 @@
  */
 import { spawnSync } from "node:child_process";
 import { readdirSync, statSync } from "node:fs";
+import { dirname, join } from "node:path";
+import { fileURLToPath } from "node:url";
+
+const algoRoot = join(dirname(fileURLToPath(import.meta.url)), "..");
 
 function hasTestPy(dir) {
   try {
     return readdirSync(dir).some(
-      (f) => f.startsWith("test_") && f.endsWith(".py")
+      (f) => f.startsWith("test_") && f.endsWith(".py"),
     );
   } catch {
     return false;
   }
 }
-import { dirname, join } from "node:path";
-import { fileURLToPath } from "node:url";
-
-const algoRoot = join(dirname(fileURLToPath(import.meta.url)), "..");
 
 /** @returns {string[] | null} argv prefix e.g. ['py', '-3'] or ['python3'] */
 function resolvePython() {
@@ -42,7 +42,7 @@ function resolvePython() {
 const py = resolvePython();
 if (!py) {
   console.error(
-    "Python not found. Install Python 3 or ensure `python3`, `python`, or `py` is on PATH."
+    "Python not found. Install Python 3 or ensure `python3`, `python`, or `py` is on PATH.",
   );
   process.exit(1);
 }
@@ -72,7 +72,7 @@ for (const week of weekDirs) {
         "test_*.py",
         "-v",
       ],
-      { cwd: algoRoot, stdio: "inherit", shell: false }
+      { cwd: algoRoot, stdio: "inherit", shell: false },
     );
     if (r.status !== 0) {
       failed = true;
