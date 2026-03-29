@@ -12,3 +12,51 @@ path = "week01/704-binary-search/solution.rs"
 [[bin]]
 name = "p35-search-insert-position"
 path = "week01/35-search-insert-position/solution.rs"
+
+[[bin]]
+name = "p34-find-first-and-last-position"
+path = "week01/34-find-first-and-last-position-of-element-in-sorted-array/solution.rs"
+
+[[bin]]
+name = "p162-find-peak-element"
+path = "week01/162-find-peak-element/solution.rs"
+
+[[bin]]
+name = "p33-search-in-rotated-sorted-array"
+path = "week01/33-search-in-rotated-sorted-array/solution.rs"
+
+[[bin]]
+name = "p153-find-minimum-in-rotated-sorted-array"
+path = "week01/153-find-minimum-in-rotated-sorted-array/solution.rs"
+
+[[bin]]
+name = "p74-search-a-2d-matrix"
+path = "week01/74-search-a-2d-matrix/solution.rs"
+
+[[bin]]
+name = "p540-single-element-in-a-sorted-array"
+path = "week01/540-single-element-in-a-sorted-array/solution.rs"
+
+[[bin]]
+name = "p875-koko-eating-bananas"
+path = "week01/875-koko-eating-bananas/solution.rs"
+
+[[bin]]
+name = "p1283-smallest-divisor-given-a-threshold"
+path = "week01/1283-smallest-divisor-given-a-threshold/solution.rs"
+
+[[bin]]
+name = "p1482-minimum-number-of-days-to-make-m-bouquets"
+path = "week01/1482-minimum-number-of-days-to-make-m-bouquets/solution.rs"
+
+[[bin]]
+name = "p378-kth-smallest-element-in-a-sorted-matrix"
+path = "week01/378-kth-smallest-element-in-a-sorted-matrix/solution.rs"
+
+[[bin]]
+name = "p1011-capacity-to-ship-packages-within-d-days"
+path = "week01/1011-capacity-to-ship-packages-within-d-days/solution.rs"
+
+[[bin]]
+name = "p410-split-array-largest-sum"
+path = "week01/410-split-array-largest-sum/solution.rs"

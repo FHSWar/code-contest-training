@@ -1,0 +1,7 @@
+/** 33 公共用例：nums、target、期望下标（不存在为 -1） */
+export const cases33: { nums: number[]; target: number; expected: number }[] = [
+  { nums: [4, 5, 6, 7, 0, 1, 2], target: 0, expected: 4 },
+  { nums: [4, 5, 6, 7, 0, 1, 2], target: 3, expected: -1 },
+  { nums: [1], target: 0, expected: -1 },
+  { nums: [1], target: 1, expected: 0 },
+];
