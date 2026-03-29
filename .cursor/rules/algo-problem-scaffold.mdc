@@ -1,0 +1,35 @@
+---
+description: 新增或补全 algo 周题目录时的质量基线（与 week01 704/35 及用户加强版一致）
+globs: algo/**
+alwaysApply: false
+---
+
+# 算法题本地目录（algo/weekNN/{题号}-{slug}/）
+
+新建或批量补题时，**不要只做「能跑的骨架」**；默认按下面基线交付（除非用户明确说「只要最小骨架」）。
+
+## 文件与结构
+
+- 与现有题一致：`README.md`、`思路.md`、`solution.ts`、`solution.py`、`solution.rs`、`cases.ts`、`solution.test.ts`、`test_solution.py`。
+- 在 `algo/Cargo.toml` 注册对应 `[[bin]]`；更新当周 `weekNN/README.md` 表格（链接 + 本地路径）。
+
+## `思路.md`（复习向，非一句话）
+
+至少包含：**题意**、**核心思路**（单调性 / `check` / 区间含义）、**复杂度**、**易错点**（边界、`<=` vs `<`、与其它题的对比）。
+
+- 同类题写**对照**（如 34↔35、1011↔410、875↔1283、33↔153、74↔240）。
+- 需要时用 ` ```text ` 代码块写分支或伪代码（满足 markdownlint）。
+
+## 测试与用例
+
+- `cases.ts` 顶部用 JSDoc 说明用例含义；`test_solution.py` 首行注释标明与 `cases.ts` 对齐。
+- **主动加边界**：单元素、两元素、`k=n` / `k=1`、矩阵 `1×1`、乘积可能溢出等（视题目而定）。
+- **Rust**：`m * k`、累加和、`ceil` 累加等可能超 `i32` 时，比较与累加用 **`i64`**（或等价安全类型）。
+
+## 实现
+
+- 三语言语义一致；能合并分支的写法（如 LC 540 用 `mid` 对齐偶数位）优先于冗长奇偶分支，并在 `思路.md` 里点明技巧。
+
+## 交付前
+
+- 在 `algo/` 下执行：`npm run check`、`npm run test:ts`、`npm run test:py`；本机有 Rust 时再 `cargo test`。
