@@ -13,6 +13,16 @@ alwaysApply: false
 - 与现有题一致：`README.md`、`思路.md`、`solution.ts`、`solution.py`、`solution.rs`、`cases.ts`、`solution.test.ts`、`test_solution.py`。
 - 在 `algo/Cargo.toml` 注册对应 `[[bin]]`；更新当周 `weekNN/README.md` 表格（链接 + 本地路径）。
 
+## `README.md`（题面摘要，必须完整）
+
+不能只写一句话。至少包含以下板块（参照 704）：
+
+- **标题 + 链接 + 难度 + 标签**
+- **题目描述**：用自己的话把题意写清楚，不依赖 LeetCode 原文也能看懂
+- **示例**：至少 1-2 组输入输出 + 简短解释
+- **约束**：数据范围（影响复杂度判断和溢出风险）
+- **本地代码**：指向 `solution.ts`、`思路.md` 等
+
 ## `思路.md`（复习向，非一句话）
 
 至少包含：**题意**、**核心思路**（单调性 / `check` / 区间含义）、**复杂度**、**易错点**（边界、`<=` vs `<`、与其它题的对比）。
