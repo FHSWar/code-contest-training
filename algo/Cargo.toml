@@ -60,3 +60,51 @@ path = "week01/1011-capacity-to-ship-packages-within-d-days/solution.rs"
 [[bin]]
 name = "p410-split-array-largest-sum"
 path = "week01/410-split-array-largest-sum/solution.rs"
+
+[[bin]]
+name = "p1091-shortest-path-in-binary-matrix"
+path = "week02/1091-shortest-path-in-binary-matrix/solution.rs"
+
+[[bin]]
+name = "p127-word-ladder"
+path = "week02/127-word-ladder/solution.rs"
+
+[[bin]]
+name = "p752-open-the-lock"
+path = "week02/752-open-the-lock/solution.rs"
+
+[[bin]]
+name = "p200-number-of-islands"
+path = "week02/200-number-of-islands/solution.rs"
+
+[[bin]]
+name = "p733-flood-fill"
+path = "week02/733-flood-fill/solution.rs"
+
+[[bin]]
+name = "p695-max-area-of-island"
+path = "week02/695-max-area-of-island/solution.rs"
+
+[[bin]]
+name = "p130-surrounded-regions"
+path = "week02/130-surrounded-regions/solution.rs"
+
+[[bin]]
+name = "p994-rotting-oranges"
+path = "week02/994-rotting-oranges/solution.rs"
+
+[[bin]]
+name = "p542-01-matrix"
+path = "week02/542-01-matrix/solution.rs"
+
+[[bin]]
+name = "p1162-as-far-from-land-as-possible"
+path = "week02/1162-as-far-from-land-as-possible/solution.rs"
+
+[[bin]]
+name = "p417-pacific-atlantic-water-flow"
+path = "week02/417-pacific-atlantic-water-flow/solution.rs"
+
+[[bin]]
+name = "p934-shortest-bridge"
+path = "week02/934-shortest-bridge/solution.rs"
