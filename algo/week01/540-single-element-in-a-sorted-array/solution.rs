@@ -9,7 +9,7 @@ impl Solution {
         let mut right: i32 = nums.len() as i32 - 1;
         while left < right {
             let mut mid = left + (right - left) / 2;
-            mid -= mid & 1;
+            mid -= mid % 2;
             let m = mid as usize;
             if nums[m] == nums[m + 1] {
                 left = mid + 2;

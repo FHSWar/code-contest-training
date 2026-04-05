@@ -10,7 +10,7 @@ export function singleNonDuplicate(nums: number[]): number {
   let right = nums.length - 1;
   while (left < right) {
     let mid = left + Math.floor((right - left) / 2);
-    mid -= mid & 1;
+    mid -= mid % 2;
     if (nums[mid] === nums[mid + 1]) left = mid + 2;
     else right = mid;
   }
