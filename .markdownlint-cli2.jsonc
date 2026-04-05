@@ -1,0 +1,11 @@
+{
+  "ignores": ["**/node_modules/**", "**/dist/**", "**/build/**"],
+  "config": {
+    "MD013": {
+      "line_length": 260,
+      "heading_line_length": 260,
+      "code_blocks": false,
+      "tables": false
+    }
+  }
+}

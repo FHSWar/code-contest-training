@@ -4,15 +4,15 @@
 
 ## 目录约定
 
-| 路径　　　　　　　　　 | 用途　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　 |
-| ------------------------| ----------------------------------------------------------------------|
-| `algo/`　　　　　　　　| 模板默写、错题复盘（`.md` / 本地 `.ts` 片段；正式提交仍在 LeetCode） |
-| `experiments/llm-api/` | 第 4 周起：调通类 Chat Completions API（爱码等）　　　　　　　　　　 |
-| `mcp-server/`　　　　　| 第 7–11 周：MCP Server（赛前对齐赛题入口命名）　　　　　　　　　　　 |
-| `mcp-client/`　　　　　| MCP Client、批处理 CSV　　　　　　　　　　　　　　　　　　　　　　　 |
-| `agent/`　　　　　　　 | NL → 结构化字段 → 调 MCP　　　　　　　　　　　　　　　　　　　　　　 |
-| `apps/web/`　　　　　　| 第 13 周起：前端　　　　　　　　　　　　　　　　　　　　　　　　　　 |
-| `apps/api/`　　　　　　| 第 13 周起：后端 REST　　　　　　　　　　　　　　　　　　　　　　　　|
+| 路径 | 用途 |
+| --- | --- |
+| `algo/` | 模板默写、错题复盘（`.md` / 本地 `.ts` 片段；正式提交仍在 LeetCode） |
+| `experiments/llm-api/` | 第 4 周起：调通类 Chat Completions API（爱码等） |
+| `mcp-server/` | 第 7–11 周：MCP Server（赛前对齐赛题入口命名） |
+| `mcp-client/` | MCP Client、批处理 CSV |
+| `agent/` | NL → 结构化字段 → 调 MCP |
+| `apps/web/` | 第 13 周起：前端 |
+| `apps/api/` | 第 13 周起：后端 REST |
 
 需要 **pnpm/npm workspaces** 时再在根目录加 `package.json`；当前仅从 `experiments/llm-api` 起步即可。
 

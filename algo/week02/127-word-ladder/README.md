@@ -15,13 +15,13 @@
 
 ## 示例
 
-```
+```text
 输入：beginWord = "hit", endWord = "cog", wordList = ["hot","dot","dog","lot","log","cog"]
 输出：5
 解释：hit -> hot -> dot -> dog -> cog，共 5 个单词
 ```
 
-```
+```text
 输入：beginWord = "hit", endWord = "cog", wordList = ["hot","dot","dog","lot","log"]
 输出：0
 解释：endWord "cog" 不在字典中
